@@ -51,7 +51,6 @@ public class ProductController {
     }
     
     //Not required
-    /*
     @GetMapping("/{id}")
     public ResponseEntity<Product> getProductById(@PathVariable(required = true) String id) {
     	Product product = null;
@@ -74,5 +73,4 @@ public class ProductController {
         productService.deleteProductById(id);
         return ResponseEntity.accepted().build();
     }
-    */
 }
